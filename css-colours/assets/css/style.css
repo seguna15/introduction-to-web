@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+
+    color: rgb(255, 184, 135) /* RGB Value */;
+}
+
+
+.text{
+    color: goldenrod /*colour name */;
+}
+
+.highlight{
+    /* Combination of 0 - 9 and A - F */
+    color: #AC8887;
+}
+
+.three > p {
+    color: hsl(126, 52%, 60%) /* HSL Value */;
+}
+
+article.first{
+    width: 500px;
+}
+
+article{
+    height: 500px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.first{
+    background-color: rgba(0, 0, 0, 0.8) /* RGBA i.e rgb with alpha channel */;
+}
+
+.second{
+    background-color: hsla(0, 83%, 7%, .8);
+}
+
+.three{
+    background-color: #201111;
+}

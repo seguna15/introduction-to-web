@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <form action="" method="" id="myForm" class="myForm">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" class="username" placeholder="Enter your username" required>
+        </div>
+        <br>
+        <div>
+            <label for="userPassword">Password</label>
+            <input type="password" name="userPassword" id="userPassword" class="userPassword" placeholder="Enter your password" required>
+        </div>
+        <br>
+        <div>
+            <label for="usermail">Email</label>
+            <input type="email" name="usermail" id="usermail" class="usermail" placeholder="insert your email" required>
+        </div>
+        <br>
+        <div>
+            <label for="message">Comment</label>
+            <textarea name="message" id="message" class="message" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="image">Image Upload</label>
+            <input type="file" name="image" id="image" class="image">
+        </div>
+        <br>
+        <div>
+            <label for="state">State of Origin</label>
+            <select name="state" id="state" class="state">
+                <option value="" >select state</option>
+                <option value="Anambra">Anambra</option>
+                <option value="Bauchi">Bauchi</option>
+                <option value="Kwara">Kwara</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Male" id="gender" checked> <span>Male</span>
+             <input type="radio" name="gender" value="Female" id="gender"> <span>Female</span>
+        </div>
+        <br>
+        <div>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" name="hobbies" id="hobbies" value="swimming" checked> <span>swimming</span>
+            <input type="checkbox" name="hobbies" id="hobbies" value="football" checked> <span>football</span>
+            <input type="checkbox" name="hobbies" id="hobbies" value="reading"> <span>reading</span>
+        </div>
+        <div>
+            <input type="hidden" name="hidden_input" value="Hidden Data"> 
+            <input type="text" disabled>
+        </div>
+        <br>
+        <input type="submit" value="Submit Form">
+    </form>
+
+    <br><br><br>
+
+    <form action="">
+        <fieldset>
+            <legend>User data</legend>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+        </fieldset>
+        <br><br>
+         <fieldset>
+             <legend>Bio data</legend>
+             <div>
+                 <label for="blood_group">Blood Group</label>
+                 <input type="text" name="blood_group" id="blood_group">
+             </div>
+             <br>
+             <div>
+                 <label for="genotype">Genotype</label>
+                 <input type="text" name="genotype" id="genotype">
+             </div>
+         </fieldset>
+    </form>
+</body>
+</html>

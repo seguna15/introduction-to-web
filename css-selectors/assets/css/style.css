@@ -1,0 +1,43 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header{
+    background-color: antiquewhite;
+    padding: 1em;
+}
+
+.logo > h1 {
+    color: red;
+    font-size: 36px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+ul .nav-link {
+    color: blueviolet;
+    font-size: 18px;
+}
+
+.text{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.hero > p {
+    color: blue;
+}
+/* Class Selector */
+/* .header{
+    background-color: rosybrown;
+    padding: 1em;
+}
+
+.nav-item{
+    list-style: none;
+} */

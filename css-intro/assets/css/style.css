@@ -1,0 +1,9 @@
+ul {
+    font-size: 36px;
+    list-style-type: none;
+}
+
+li > a {
+    color: green;
+    text-decoration: none;
+}

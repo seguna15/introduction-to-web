@@ -1,0 +1,40 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+main{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 300px;
+    padding: 2em;
+    margin: 2em;
+}
+
+/* ID Selector */
+#logo {
+    color: brown;
+    margin-bottom: 1em;
+}
+
+/* Class Selector */
+.text{
+    color: navy;
+    letter-spacing: 1px;
+}
+
+/* Child Selector */
+.hero > .text{
+    background-color: red;
+    padding: 1em;
+}
+
+/* Descendant Selector */
+ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: green;
+}
