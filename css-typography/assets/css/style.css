@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,8 +11,12 @@ html{
     font-size: 10px;
 }
 
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
 h1{
-    font-size: 24px;
+    font-size: 4rem;
     background-color: cyan;
     width: 300px;
     height: 100px;
@@ -36,13 +42,10 @@ ul{
 
 li > a {
     font-size: 1.5em;
+    text-decoration: none;
 }
 
-h2{
-    font-size: 2rem;
-}
-
-.one, .second{
+.one, .second, .contact{
     height: 100vh;
     width: 100vw;
    /*  padding-top: 50px;
@@ -54,15 +57,28 @@ h2{
 .one{
     background-color: #5E239D;
     color: #FFFFFF;
+    font-weight: 500;
+    font-style: oblique;
 }
 
 .second{
     background-color: #3066BE;
     color: #f5f5f5;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .section-title {
    padding-block: 1em;
+   font-size: 3rem;
+   text-align: center;
+}
+
+section p {
+    text-indent: 2rem;
+    line-height: 1.4;
+    letter-spacing: .2rem;
+    word-spacing: .4rem;
 }
 
 .one p,
@@ -72,3 +88,20 @@ h2{
     font-size: 1.8rem;
     color: #f5f5f5;
 } 
+
+.contact {
+    font-size: 2rem;
+}
+
+.contact-form .input-group, .contact-form textarea{
+    margin-bottom: 2rem;
+}
+
+.contact-form label{
+    font-size: 2rem;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    font-size: inherit;
+}
+
