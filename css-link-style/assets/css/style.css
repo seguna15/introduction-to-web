@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+}
+
+ul{
+    margin: 2rem;
+    background-color: lightskyblue;
+    padding: 1rem;
+}
+
+ul > .link-item{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.link-item > .link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Links that have been visited */
+.link-item > .link:visited{
+    color: blue;
+}
+
+/* When you mouse over your links */
+.link-item > .link:is( :hover, :focus) {
+    color: green;
+    text-decoration: underline;
+}
+
+/* The page you are currently on */
+.link-item > .link:active{
+    color: darkblue;
+}
+
+main > h1 {
+    font-size: 6rem;
+    margin: 5rem auto;
+    width: fit-content;
+    background-color: blueviolet;
+    padding: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

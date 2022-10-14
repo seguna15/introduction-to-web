@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Roboto Mono', monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+h1, h2{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 3.6rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+article{
+    height: 500px;
+    width: 500px;
+    padding: 3rem 5rem;
+    
+    margin: 1rem auto;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+ol, ul {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+ol{
+    list-style-type: upper-latin;
+}
+
+ul{
+    list-style-type: square;
+    text-align: justify;
+    list-style-position: outside;
+    list-style-image: url(../images/check.png);
+}
+
+ol li:nth-child(even){
+    color: black
+}
+
+/* ul li::marker{
+   content: '👍'; Emoji gotten from https://emojipedia.org/ 
+    content: '$5=>';
+    font-size: 1.8;
+    color: black;
+} */
