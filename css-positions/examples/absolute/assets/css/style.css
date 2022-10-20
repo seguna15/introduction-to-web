@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: aqua;
+   display: grid;
+   place-items: center;
+   height: 100vh;
+}
+
+
+.container{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.card{
+    height: 550px;
+    width: 334px;
+    position: relative;
+    outline: 3px dashed red;
+    outline-offset: 10px;
+}
+
+.image{
+    height: 500px;
+    width: 334px;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.text > p{
+    font-size: 24px;
+    color: #fff;
+}
+
+.rating {
+    background-color: #fff;
+    padding: 7.5px;
+}
+
+.rating > i {
+    font-size: 30px;
+    color: gold;
+}
