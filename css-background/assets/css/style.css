@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+/**  CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image: url(../images/bubbles.png), linear-gradient(to left, steelblue, #fff);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+    background-size: 20%, auto;
+}
+
+/** Utility Classes */
+.no-wrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    margin-left: -10000px;
+}
+
+.container{
+    background-color: rgb(251, 210, 156);
+    background-image: url(../images/map-2176x1451.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/** End Utility Classes*/
+
+.example{
+    margin-top: 1rem;
+    /* padding: 20px; */
+    border: 1px solid red;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+    display: block;
+}
+
+.hero{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:  hsla(0, 0%, 0%, .25);
+    
+}
+
+.heading-one{
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    /* background-color: hsla(0, 0%, 0%, .40);
+    padding: .25rem;
+    border-radius: 10px; */
+}
+
+.profile-pic{
+    width: 35%;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px solid grey;
+    border-radius: 50%;
+}
+
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url(../images/scenic-2200x1331.png);
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, .196);
+}
