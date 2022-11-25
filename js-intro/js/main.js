@@ -37,3 +37,8 @@ var email = "Alex@gmail.com"; // no issue despite having email declared on line 
 const VAT = 0.75;
 //VAT = 0.80; // Error you cannot reassign value to a constant
 
+//several declaration
+let num1, num2, num3;
+
+//several initialization on the same line
+let num4 = 10, num5 = 11, num6 = 12;
