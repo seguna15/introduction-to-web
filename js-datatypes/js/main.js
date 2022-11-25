@@ -10,6 +10,7 @@ console.log(typeof float1);
 //String: sequence of characters
 let name = "Cypher";
 let role = 'Coding tutor';
+let stringNum = '123';
 
 //console.log(name + " is a " + role);
 console.log(`${name} is a ${role}`);
@@ -48,3 +49,6 @@ const users = [
         username: 'LoneRacer'
     }
 ]
+
+//explicit type conversion
+console.log( typeof Number(stringNum));
