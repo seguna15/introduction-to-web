@@ -5,7 +5,6 @@
 }
 
 .logo{
-
     color: rgb(255, 184, 135) /* RGB Value */;
 }
 
@@ -39,9 +38,10 @@ article{
 }
 
 .second{
-    background-color: hsla(0, 83%, 7%, .8);
+    background-color: hsla(0, 83%, 7%, 0.8);
 }
 
 .three{
     background-color: #201111;
 }
+
