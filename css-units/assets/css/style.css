@@ -9,6 +9,11 @@ html{
     font-size: 10px;
 }
 
+header{
+    width: 1000px;
+    border: 2px solid mediumturquoise;
+}
+
 h1{
     font-size: 24px;
     background-color: cyan;
@@ -19,7 +24,6 @@ h1{
 ul{
     font-size: 12px;
 }
-
 
 li > a {
     font-size: 1.5em;
@@ -33,6 +37,7 @@ h2{
     height: 100vh;
     width: 100vw;
 }
+
 .one{
     background-color: #5E239D;
     color: #FFFFFF;
