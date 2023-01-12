@@ -34,7 +34,7 @@ ul > .link-item{
 
 /* Links that have been visited */
 .link-item > .link:visited{
-    color: blue;
+     color: blue; 
 }
 
 /* When you mouse over your links */
@@ -45,7 +45,7 @@ ul > .link-item{
 
 /* The page you are currently on */
 .link-item > .link:active{
-    color: darkblue;
+    color: darkblue; 
 }
 
 main > h1 {
