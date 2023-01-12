@@ -72,6 +72,7 @@ li > a {
    padding-block: 1em;
    font-size: 3rem;
    text-align: center;
+   text-transform: capitalize;
 }
 
 section p {
@@ -79,6 +80,7 @@ section p {
     line-height: 1.4;
     letter-spacing: .2rem;
     word-spacing: .4rem;
+    text-align: justify;
 }
 
 .one p,
@@ -102,6 +104,6 @@ section p {
 }
 
 .contact-form input, .contact-form textarea, .contact-form button {
-    font-size: inherit;
+    font-size: inherit; 
 }
 
