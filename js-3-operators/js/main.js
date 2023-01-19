@@ -42,16 +42,16 @@ alert(`${mod1} % ${mod2} = ${mod}`); */
 *Assignment Operator
 */
 // =
-/* let userName = prompt('Enter your username');
-alert(`${userName}`); */
+/*  let userName = prompt('Enter your username');
+alert(`${userName}`);  */
 //+=
 /* let num = 5;
-num += Number(prompt('Add value to num')); // num = num + num;
-alert(num); */
+num += parseInt(prompt('Add value to num')); // num = num + num;
+alert(num);  */
 
 //-=
 /* let num = 10;
-num -= Number(prompt('Subtract value from num')); // num = num + num;
+num -= parseInt(prompt('Subtract value from num')); // num = num + num;
 alert(num); */
 
 /*
@@ -60,20 +60,20 @@ alert(num); */
 // a++ postincrement, ++a preincrement
 /* let a  = 5;
 let b = 5;
-alert(`a: ${a++}`);// a is only increased after this line
-alert(`a: ${a}`);
+alert(`a: ${a++}`);// a is 5, only increased after this line 
+alert(`a: ${a}`); // a is 6
  
-alert(`b: ${++b}`); // b is increased on this line
-alert(`b: ${b}`); */
+alert(`b: ${++b}`); // b is 6 increased on this line
+alert(`b: ${b}`); */ // b is 6
 
-// a++ postdecrement, ++a predecrement
+// a-- postdecrement, --a predecrement
 /* let c  = 5;
 let d = 5;
-alert(`c: ${c--}`);// c is decreased after this line
+alert(`c: ${c--}`);// c 5 is decreased after this line
 alert(`c: ${c}`); //4
  
-alert(`d: ${--d}`); // b is increased on this line
-alert(`d: ${d}`);  */
+alert(`d: ${--d}`); // b 4 is increased on this line
+alert(`d: ${d);  */
 
 /*
  *Comparison Operator 
@@ -94,6 +94,12 @@ alert(`d: ${d}`);  */
 // <=
 //alert(`is first value ${comp1} less than or equal second value ${comp2}: ${comp1 <= comp2}`);
 
+// == or ===
+//alert(`is first value ${comp1}  is equal to second value ${comp2}: ${comp1 == comp2}`);
+
+/* !=  or !== */
+//alert(`is first value ${comp1} is not equal second value ${comp2}: ${comp1 != comp2}`); 
+
 /**
  ** ASSIGNMENT: WORK WITH == equal to, === Strict equal to, != Not Equal To, !== Strict Not Equal to;
 */
@@ -102,11 +108,11 @@ alert(`d: ${d}`);  */
 ** LOGICAL OPERATORS AND , OR
  */
 
-let username = 'cypher';
+/* let username = 'cypher';
 let password = '123';
 
 let checkUser = prompt('Enter username');
-let checkPassword = prompt('Enter password');
+let checkPassword = prompt('Enter password');  */
 
 //&&
 /* if(checkUser === username && checkPassword === password){
@@ -114,11 +120,12 @@ let checkPassword = prompt('Enter password');
 }else{
     alert(`Password or Username not correct`);
 }
- */
+  */
 
-if (checkUser === username || checkPassword === password) {
+// ||
+/* if (checkUser === username || checkPassword === password) {
   alert(`Welcome ${username}`);
 } else {
   alert(`Password or Username not correct`);
-}
-
+} 
+  */

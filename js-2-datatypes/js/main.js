@@ -24,13 +24,24 @@ let testVariable = 6 < 4;
 console.log(testVariable);
 
 //Null: its a value but we do not know what it is yet.
-let username = null;
+let username = 'null';
 
-username = username ?? "New user"; 
-console.log(username);
+let display_name = username ?? "New user"; 
+console.log(display_name);
+
+
+let auth_status = null;
+
+if(10 > 5){
+    auth_status = "logged in";
+}
+
+let authPromt = auth_status ?? "Kindly Login to view content";
+ alert(authPromt); 
+
 
 //Undefined: varible that exists but does not have a value yet
-let undefineValue ;
+let undefineValue;
 console.log( typeof undefineValue);
 
 //Symbols: to create distinct values
@@ -48,7 +59,7 @@ const users = [
         id: Symbol('124'),
         username: 'LoneRacer'
     }
-]
+];
 
 //explicit type conversion
 console.log( typeof Number(stringNum));

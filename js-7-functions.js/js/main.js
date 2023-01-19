@@ -4,14 +4,15 @@
 } */
 const result = document.getElementById("result");
 // ** Functions and Parameters
-/* sayHello("Idris", "INtern"); Hoisting Support in Javascript */
+//sayHello("Idris", "INtern"); /* Hoisting Support in Javascript */
 /* function sayHello(username, role) {
   alert(`Hi ${username}. I am a ${role}`);
-}
+} */
 
+/* 
 let username = prompt("Enter your username");
 let role = prompt("Enter your role");
-sayHello(username, role); */
+sayHello(username, role);  */
 
 // ** Function Expression
 /* let sum1 = function(a,b){
@@ -28,13 +29,18 @@ result.innerText = sum(5, 5);
  1) Function Syntax supports hoisting Function expression does not
  */
 
-const userObj = {
+ window.username = 'David';
+ window.role = 'Intern';
+ const userObj = {
     username: 'Cypher',
-    role: 'Tutor'
+    role: 'Tutor',
+    displayUser: function() {
+        console.log(`Username: ${this.username}, Role: ${this.role}`);
+    },
+    displayUserArrowFunc: () => {
+        console.log(`Username: ${this.username}, Role: ${this.role}`);
+    }  
 }
 
-function displayRole(obj){
-    console.log(`${this.username}`);
-}
-
-displayRole(userObj);
+ userObj.displayUser();
+ userObj.displayUserArrowFunc();

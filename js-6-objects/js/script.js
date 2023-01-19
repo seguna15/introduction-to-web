@@ -10,7 +10,7 @@ const person = {
     jobRole : 'Founder/Tutor',
     nationality: 'Nigerian',
     favouriteClubs : ['AC Milan', 'LFC', 'Real Madrid'],
-    displayDetails(){
+    displayDetails:function(){
         return `My name is ${this.name}, sometimes, people call me ${this.nickname}. I work at ${this.employer} as a ${this.jobRole}. I am ${this.nationality}`;
     },
     set details(detail){
@@ -50,8 +50,8 @@ const num2 = {x: 24, y: 25, z: 26};
 const newObj = {...num ,...num2};
 
 console.table(newObj);
-
+//object destructuring
 const {a,b} = newObj;
-console.log(a);
+console.log(a + b);
 
 
